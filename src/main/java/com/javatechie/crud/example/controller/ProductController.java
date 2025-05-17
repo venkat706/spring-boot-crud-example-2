@@ -13,13 +13,13 @@ public class ProductController {
     @Autowired
     private ProductService service;
 
-    @PostMapping("/addProductAgain")
-    public Product addProductAgain(@RequestBody Product product) {
+    @PostMapping("/addProductAgain2")
+    public Product addProductAgain2(@RequestBody Product product) {
         return service.saveProduct(product);
     }
 
-    @PostMapping("/addProductfeature3")
-    public Product addProductfeature3(@RequestBody Product product) {
+    @PostMapping("/addProductfeature4")
+    public Product addProductfeature4(@RequestBody Product product) {
         return service.saveProduct(product);
     }
 
