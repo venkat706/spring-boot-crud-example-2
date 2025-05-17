@@ -18,8 +18,8 @@ public class ProductController {
         return service.saveProduct(product);
     }
 
-    @PostMapping("/addProductfeature")
-    public Product addProductfeature(@RequestBody Product product) {
+    @PostMapping("/addProductfeature2")
+    public Product addProductfeature2(@RequestBody Product product) {
         return service.saveProduct(product);
     }
 
