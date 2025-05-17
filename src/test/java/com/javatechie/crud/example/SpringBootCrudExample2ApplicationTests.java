@@ -10,4 +10,5 @@ class SpringBootCrudExample2ApplicationTests {
 	void contextLoads() {
 	}
 
+	//Added test cases
 }
