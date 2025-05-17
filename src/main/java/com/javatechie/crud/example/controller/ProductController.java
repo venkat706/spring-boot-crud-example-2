@@ -6,12 +6,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+//My dev commit
 @RestController
 public class ProductController {
 
     @Autowired
     private ProductService service;
+
+    @PostMapping("/addProductAgain")
+    public Product addProductAgain(@RequestBody Product product) {
+        return service.saveProduct(product);
+    }
+
 
     @PostMapping("/addProduct")
     public Product addProduct(@RequestBody Product product) {
